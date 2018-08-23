@@ -2,7 +2,9 @@ Package: choroplethrAdmin1
 Type: Package
 Title: Contains an Administrative-Level-1 Map of the World
 Version: 1.1.1
-Author: Ari Lamstein <ari@lamsteinconsulting.com>
+Authors@R: c(
+    person("Ari", "Lamstein", , "ari@lamsteinconsulting.com", c("aut", "cre"))
+    )
 Maintainer: Ari Lamstein <ari@lamsteinconsulting.com>
 Description: Contains an administrative-level-1 map of the world.
     Administrative-level-1 is the generic term for the largest sub-national
@@ -12,4 +14,4 @@ License: BSD_3_clause + file LICENSE
 URL: http://www.arilamstein.com/open-source
 Imports:
     ggplot2
-RoxygenNote: 6.0.0
+RoxygenNote: 6.0.1
